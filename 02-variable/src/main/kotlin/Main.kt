@@ -8,4 +8,8 @@ fun main() {
     println(temp)
     temp += 8
     println("value of temp is changed to $temp")
+
+    val pi : Double = 3.14;
+    println("the value of pi is $pi")
+
 }
