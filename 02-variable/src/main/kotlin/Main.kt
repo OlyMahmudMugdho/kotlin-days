@@ -12,4 +12,6 @@ fun main() {
     val pi : Double = 3.14;
     println("the value of pi is $pi")
 
+    val name : String = "Mugdho";
+    println("My name is $name")
 }
