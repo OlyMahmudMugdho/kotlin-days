@@ -1,5 +1,6 @@
 package com.mahmud
 
+import kotlin.math.floor
 import kotlin.math.round
 import kotlin.math.sqrt
 
@@ -12,4 +13,7 @@ fun main() {
 
     val fraction : Float = 5.40F;
     println("fraction rounded to ${round(fraction)}")
+
+    println("fraction floor to ${floor(fraction)}")
+
 }
