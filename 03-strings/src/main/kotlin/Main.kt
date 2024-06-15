@@ -15,4 +15,7 @@ fun main() {
     if (blankText.isBlank()) {
         println("text is blank")
     }
+
+    println("hello ${name.uppercase()}")
+
 }
