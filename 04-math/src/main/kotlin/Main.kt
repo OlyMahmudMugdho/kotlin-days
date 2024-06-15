@@ -1,5 +1,6 @@
 package com.mahmud
 
+import kotlin.math.ceil
 import kotlin.math.floor
 import kotlin.math.round
 import kotlin.math.sqrt
@@ -15,5 +16,8 @@ fun main() {
     println("fraction rounded to ${round(fraction)}")
 
     println("fraction floor to ${floor(fraction)}")
+
+
+    println("fraction ceil to ${ceil(fraction)}")
 
 }
