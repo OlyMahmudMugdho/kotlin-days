@@ -1,5 +1,6 @@
 package com.mahmud
 
+import kotlin.math.round
 import kotlin.math.sqrt
 
 fun main() {
@@ -8,4 +9,7 @@ fun main() {
 
     val num = 36F;
     println("root of $num is ${sqrt(num)}")
+
+    val fraction : Float = 5.40F;
+    println("fraction rounded to ${round(fraction)}")
 }
