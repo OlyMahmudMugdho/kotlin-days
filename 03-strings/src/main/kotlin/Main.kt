@@ -5,4 +5,9 @@ fun main() {
     println("Hello, $name");
     println(name.uppercase())
     println(name.lowercase())
+    var emptytext = "";
+
+    if (emptytext.isEmpty()) {
+        println("text is empty")
+    }
 }
